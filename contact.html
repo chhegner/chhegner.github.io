@@ -1,0 +1,137 @@
+﻿<!--So sorry these are all so late, I've been very busy with a lot outside of school-->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>Contact | Christian Hegner</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/layout.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header class="top">
+				<h1><img src="img/bannersm.webp" width="300px" height="400px" alt="Contact"/></h1>
+				<nav class="left">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="form">
+				<form id="contact" method="post" action="submit.php">
+					<br>
+					<p>
+						<label for="date">Today's Date</label>
+						<input type="date" id="date" name="date"></input>
+					</p>
+					<fieldset>
+						<legend>Personal Information</legend>
+						<p>
+							<label for="fname">First Name</label>
+							<input type="text" id="fname" name="fname" required placeholder="Type your First Name">*
+						</p>
+						<p>
+							<label for="lname">Last Name</label>
+							<input type="text" id="lname" name="lname" required placeholder="Type your Last Name">*
+						</p>
+						<p>
+							<label for="street">Street Address</label>
+							<input type="text" id="street" name="street" placeholder="Type your Street Address">
+						</p>
+						<p>
+							<label for="state">State of Residence</label>
+							<input type="text" id="state" name="state" placeholder="Please enter your State of Residence">
+						</p>
+						<p>
+							<label for="zip">Zip Code</label>
+							<input type="number" id="zip" name="zip" placeholder="Type your Zip Code">
+						</p>
+						<p>
+							<label for="tdate">Today's Date</label>
+							<input type="date" id="tdate" name="tdate" required placeholder="Please enter today's date">
+						</p>
+						<p>
+							<label for="bdate">Your Birthday</label>
+							<input type="date" id="bdate" name="bdate" placeholder="Please enter your Birthday">
+						</p>
+						<p>
+							<label for="phone">Phone Number</label>
+							<input type="number" id="phone" name="phone" required placeholder="Type your Phone Number">*
+						</p>
+						<p>
+							<label for="newsltr">Please update your news letter enrollment status:</label>
+							<br>
+							I Opt In to receiving news letters from
+							<input type="radio" name="newsltr" value="True">
+							I Opt Out of receiving news letters from
+							<input type="radio" name="newsltr" value="False">
+						</p>
+						<p>
+							<label for="newsltr">How often do you go out to eat?</label>
+							<br>
+							Once a year or less:
+							<input type="radio" name="eatfreq" value="VeryNotOften">
+							Multiple times a year:
+							<input type="radio" name="eatfreq" value="NotOften">
+							<br>
+							Once a month or so:
+							<input type="radio" name="eatfreq" value="Often">
+							More than once a month:
+							<input type="radio" name="eatfreq" value="VeryOften">
+						</p>
+						<p>
+							<label for="product">My food preferences are:</label>
+							<br>
+							Hot food:
+							<input type="checkbox" name="hotFood" value="hotFood">
+							Cold food:
+							<input type="checkbox" name="coldFood" value="coldFood">
+							Food from other cultures:
+							<input type="checkbox" name="foreignFood" value="foreignFood">
+							<br>
+							Food from where I'm from:
+							<input type="checkbox" name="domesticFood" value="domesticFood">
+							Medically restricted (I have allergies chefs need to know about):
+							<input type="checkbox" name="hasAllergies" value="hasAllergies">
+						</p>
+						<p>
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" required>
+						</p>
+						<p>
+							<label for="feedback">My Feedback</label>
+							<input type="text" id="feedback" name="feedback" placeholder="Provide feedback on your experience">*
+						</p>
+						<p>* Required</p>
+					</fieldset>
+					<p>
+						<input type="submit" value="Submit Your Form">
+					</p>
+				</form>
+			</section>
+			<section class="text">
+				<aside>
+					<p>Paragraph</p>
+					<p>Paragraph</p>
+					<figure><img class="img" src="img/frankfrankextsm.jpg" alt="Alt text" width="200px" height="200px"/></figure>
+					<figcaption>Caption.</figcaption>
+					<figure><img class="img" src="img/frankinside.jpg" alt="Alt text" width="200px" height="200px"/></figure>
+					<figcaption>Other caption.</figcaption>
+					<figure><img class="img" src="img/firstgrillsm.png" alt="Alt text" width="200px" height="200px"/></figure>
+					<figcaption>Figcaption.</figcaption>
+				</aside>
+			</section>
+			<footer class="bottom">
+				<small>&copy; 2024 Christian Hegner.</small>
+				<address>
+					<small> Have a question or comment about this site? <a href="site-feedback.html">Contact our Web team</a></small>
+				</address>
+			</footer>
+		</div>
+	</body>
+	<script src="./js/site.js"></script>
+</html>
