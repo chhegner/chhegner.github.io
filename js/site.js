@@ -16,3 +16,5 @@ if (isEvening == true) { //If it's evening, do this.
 }
 //No else is needed because it is impossible for time to be outside of the 24 hour range
 
+localStorage.setItem('It\'s a secret to everybody.', '10th enemy has the bomb.')
+//Both are quotes from the original Legend of Zelda on NES
